@@ -44,9 +44,9 @@ outputCount = 0
 
 # Check the blockchain being used
 if blockchain.upper() == "SOL":
-    devAddress = "4XFXunUbxWXSDsnV8qqWp6XsSHNxBT94zGUeMMc6dxSx"
+    devAddress = "#SOLADDRESS"
 else:
-    devAddress = "0x50AA0f5FdE80Ede124ddF4a67e0D7950fac8f484"
+    devAddress = "#ETH ADDRESS"
 
 # While more images need to be generated
 while outputCount < imageCount:
